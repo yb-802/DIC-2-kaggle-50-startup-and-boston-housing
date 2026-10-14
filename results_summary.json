@@ -1,0 +1,20 @@
+{
+  "best_features": [
+    "R&D Spend",
+    "Marketing Spend"
+  ],
+  "optimal_k": 2,
+  "test_metrics": {
+    "rmse": 8198.8,
+    "r2": 0.9474,
+    "adj_r2": 0.9324,
+    "mae": 6886.59,
+    "f_stat": 349.0
+  },
+  "intercept": 46346.34,
+  "coefficients": {
+    "R&D Spend": 0.7886,
+    "Marketing Spend": 0.0326
+  },
+  "equation": "Profit = $46,346.34 +0.7886 * (R&D Spend) +0.0326 * (Marketing Spend)"
+}

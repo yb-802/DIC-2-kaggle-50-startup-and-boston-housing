@@ -1,0 +1,3885 @@
+{
+  "methods": {
+    "forward_sfs": {
+      "1": {
+        "features": [
+          "R&D Spend"
+        ],
+        "rmse": 8274.87,
+        "r2": 0.9465,
+        "adj_r2": 0.9398,
+        "mae": 6772.45,
+        "f_stat": 652.4,
+        "intercept": 48416.3,
+        "coef": {
+          "R&D Spend": 0.8516
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 104667.28,
+            "residual": 1384.9,
+            "abs_error": 1384.9,
+            "pct_error": 1.34
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 134150.83,
+            "residual": -10108.57,
+            "abs_error": 10108.57,
+            "pct_error": 7.01
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 135207.8,
+            "residual": -10914.15,
+            "abs_error": 10914.15,
+            "pct_error": 7.47
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72170.54,
+            "residual": -5628.29,
+            "abs_error": 5628.29,
+            "pct_error": 7.23
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179090.59,
+            "residual": -11959.8,
+            "abs_error": 11959.8,
+            "pct_error": 6.26
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 109824.77,
+            "residual": 4816.46,
+            "abs_error": 4816.46,
+            "pct_error": 4.59
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 65644.28,
+            "residual": -15584.78,
+            "abs_error": 15584.78,
+            "pct_error": 19.19
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 100481.43,
+            "residual": 2997.87,
+            "abs_error": 2997.87,
+            "pct_error": 3.08
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 111431.75,
+            "residual": 1079.5,
+            "abs_error": 1079.5,
+            "pct_error": 0.98
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169438.15,
+            "residual": 3250.21,
+            "abs_error": 3250.21,
+            "pct_error": 1.96
+          }
+        ]
+      },
+      "2": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend"
+        ],
+        "rmse": 8198.8,
+        "r2": 0.9474,
+        "adj_r2": 0.9324,
+        "mae": 6886.59,
+        "f_stat": 349.0,
+        "intercept": 46346.34,
+        "coef": {
+          "R&D Spend": 0.7886,
+          "Marketing Spend": 0.0326
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 102284.65,
+            "residual": -997.73,
+            "abs_error": 997.73,
+            "pct_error": 0.97
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133873.92,
+            "residual": -10385.48,
+            "abs_error": 10385.48,
+            "pct_error": 7.2
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 134182.15,
+            "residual": -11939.8,
+            "abs_error": 11939.8,
+            "pct_error": 8.17
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 73701.11,
+            "residual": -4097.72,
+            "abs_error": 4097.72,
+            "pct_error": 5.27
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 180642.25,
+            "residual": -10408.14,
+            "abs_error": 10408.14,
+            "pct_error": 5.45
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 114717.25,
+            "residual": 9708.94,
+            "abs_error": 9708.94,
+            "pct_error": 9.25
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 68335.08,
+            "residual": -12893.98,
+            "abs_error": 12893.98,
+            "pct_error": 15.87
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 97433.46,
+            "residual": -50.1,
+            "abs_error": 50.1,
+            "pct_error": 0.05
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 114580.92,
+            "residual": 4228.67,
+            "abs_error": 4228.67,
+            "pct_error": 3.83
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 170343.32,
+            "residual": 4155.38,
+            "abs_error": 4155.38,
+            "pct_error": 2.5
+          }
+        ]
+      },
+      "3": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "Administration"
+        ],
+        "rmse": 8803.78,
+        "r2": 0.9394,
+        "adj_r2": 0.9091,
+        "mae": 7320.44,
+        "f_stat": 227.8,
+        "intercept": 42989.01,
+        "coef": {
+          "R&D Spend": 0.7788,
+          "Marketing Spend": 0.0347,
+          "Administration": 0.0294
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 103901.9,
+            "residual": 619.52,
+            "abs_error": 619.52,
+            "pct_error": 0.6
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 132763.06,
+            "residual": -11496.34,
+            "abs_error": 11496.34,
+            "pct_error": 7.97
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 133567.9,
+            "residual": -12554.05,
+            "abs_error": 12554.05,
+            "pct_error": 8.59
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72911.79,
+            "residual": -4887.04,
+            "abs_error": 4887.04,
+            "pct_error": 6.28
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179627.93,
+            "residual": -11422.46,
+            "abs_error": 11422.46,
+            "pct_error": 5.98
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 115166.65,
+            "residual": 10158.34,
+            "abs_error": 10158.34,
+            "pct_error": 9.67
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 67113.58,
+            "residual": -14115.48,
+            "abs_error": 14115.48,
+            "pct_error": 17.38
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 98154.81,
+            "residual": 671.25,
+            "abs_error": 671.25,
+            "pct_error": 0.69
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 114756.12,
+            "residual": 4403.87,
+            "abs_error": 4403.87,
+            "pct_error": 3.99
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169064.01,
+            "residual": 2876.07,
+            "abs_error": 2876.07,
+            "pct_error": 1.73
+          }
+        ]
+      },
+      "4": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "Administration",
+          "State_Florida"
+        ],
+        "rmse": 9068.54,
+        "r2": 0.9357,
+        "adj_r2": 0.8843,
+        "mae": 7431.47,
+        "f_stat": 166.7,
+        "intercept": 42922.43,
+        "coef": {
+          "R&D Spend": 0.7754,
+          "Marketing Spend": 0.0363,
+          "Administration": 0.0319,
+          "State_Florida": -1272.1608
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 102978.26,
+            "residual": -304.12,
+            "abs_error": 304.12,
+            "pct_error": 0.29
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 132979.34,
+            "residual": -11280.06,
+            "abs_error": 11280.06,
+            "pct_error": 7.82
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 132521.05,
+            "residual": -13600.9,
+            "abs_error": 13600.9,
+            "pct_error": 9.31
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 71952.39,
+            "residual": -5846.44,
+            "abs_error": 5846.44,
+            "pct_error": 7.51
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 178668.35,
+            "residual": -12382.04,
+            "abs_error": 12382.04,
+            "pct_error": 6.48
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 115738.44,
+            "residual": 10730.13,
+            "abs_error": 10730.13,
+            "pct_error": 10.22
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 67439.98,
+            "residual": -13789.08,
+            "abs_error": 13789.08,
+            "pct_error": 16.98
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 98397.74,
+            "residual": 914.18,
+            "abs_error": 914.18,
+            "pct_error": 0.94
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113956.0,
+            "residual": 3603.75,
+            "abs_error": 3603.75,
+            "pct_error": 3.27
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 168051.97,
+            "residual": 1864.03,
+            "abs_error": 1864.03,
+            "pct_error": 1.12
+          }
+        ]
+      },
+      "5": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "Administration",
+          "State_Florida",
+          "State_New York"
+        ],
+        "rmse": 9137.99,
+        "r2": 0.9347,
+        "adj_r2": 0.8531,
+        "mae": 7514.29,
+        "f_stat": 129.7,
+        "intercept": 42554.17,
+        "coef": {
+          "R&D Spend": 0.7735,
+          "Marketing Spend": 0.0366,
+          "Administration": 0.0329,
+          "State_Florida": -959.2842,
+          "State_New York": 699.3691
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 103015.2,
+            "residual": -267.18,
+            "abs_error": 267.18,
+            "pct_error": 0.26
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 132582.28,
+            "residual": -11677.12,
+            "abs_error": 11677.12,
+            "pct_error": 8.09
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 132447.74,
+            "residual": -13674.21,
+            "abs_error": 13674.21,
+            "pct_error": 9.36
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 71976.1,
+            "residual": -5822.73,
+            "abs_error": 5822.73,
+            "pct_error": 7.48
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 178537.48,
+            "residual": -12512.91,
+            "abs_error": 12512.91,
+            "pct_error": 6.55
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 116161.24,
+            "residual": 11152.93,
+            "abs_error": 11152.93,
+            "pct_error": 10.62
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 67851.69,
+            "residual": -13377.37,
+            "abs_error": 13377.37,
+            "pct_error": 16.47
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 98791.73,
+            "residual": 1308.17,
+            "abs_error": 1308.17,
+            "pct_error": 1.34
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113969.44,
+            "residual": 3617.19,
+            "abs_error": 3617.19,
+            "pct_error": 3.28
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 167921.07,
+            "residual": 1733.13,
+            "abs_error": 1733.13,
+            "pct_error": 1.04
+          }
+        ]
+      }
+    },
+    "lasso": {
+      "1": {
+        "features": [
+          "R&D Spend"
+        ],
+        "rmse": 8274.87,
+        "r2": 0.9465,
+        "adj_r2": 0.9398,
+        "mae": 6772.45,
+        "f_stat": 652.4,
+        "intercept": 48416.3,
+        "coef": {
+          "R&D Spend": 0.8516
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 104667.28,
+            "residual": 1384.9,
+            "abs_error": 1384.9,
+            "pct_error": 1.34
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 134150.83,
+            "residual": -10108.57,
+            "abs_error": 10108.57,
+            "pct_error": 7.01
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 135207.8,
+            "residual": -10914.15,
+            "abs_error": 10914.15,
+            "pct_error": 7.47
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72170.54,
+            "residual": -5628.29,
+            "abs_error": 5628.29,
+            "pct_error": 7.23
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179090.59,
+            "residual": -11959.8,
+            "abs_error": 11959.8,
+            "pct_error": 6.26
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 109824.77,
+            "residual": 4816.46,
+            "abs_error": 4816.46,
+            "pct_error": 4.59
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 65644.28,
+            "residual": -15584.78,
+            "abs_error": 15584.78,
+            "pct_error": 19.19
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 100481.43,
+            "residual": 2997.87,
+            "abs_error": 2997.87,
+            "pct_error": 3.08
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 111431.75,
+            "residual": 1079.5,
+            "abs_error": 1079.5,
+            "pct_error": 0.98
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169438.15,
+            "residual": 3250.21,
+            "abs_error": 3250.21,
+            "pct_error": 1.96
+          }
+        ]
+      },
+      "2": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend"
+        ],
+        "rmse": 8198.8,
+        "r2": 0.9474,
+        "adj_r2": 0.9324,
+        "mae": 6886.59,
+        "f_stat": 349.0,
+        "intercept": 46346.34,
+        "coef": {
+          "R&D Spend": 0.7886,
+          "Marketing Spend": 0.0326
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 102284.65,
+            "residual": -997.73,
+            "abs_error": 997.73,
+            "pct_error": 0.97
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133873.92,
+            "residual": -10385.48,
+            "abs_error": 10385.48,
+            "pct_error": 7.2
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 134182.15,
+            "residual": -11939.8,
+            "abs_error": 11939.8,
+            "pct_error": 8.17
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 73701.11,
+            "residual": -4097.72,
+            "abs_error": 4097.72,
+            "pct_error": 5.27
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 180642.25,
+            "residual": -10408.14,
+            "abs_error": 10408.14,
+            "pct_error": 5.45
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 114717.25,
+            "residual": 9708.94,
+            "abs_error": 9708.94,
+            "pct_error": 9.25
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 68335.08,
+            "residual": -12893.98,
+            "abs_error": 12893.98,
+            "pct_error": 15.87
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 97433.46,
+            "residual": -50.1,
+            "abs_error": 50.1,
+            "pct_error": 0.05
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 114580.92,
+            "residual": 4228.67,
+            "abs_error": 4228.67,
+            "pct_error": 3.83
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 170343.32,
+            "residual": 4155.38,
+            "abs_error": 4155.38,
+            "pct_error": 2.5
+          }
+        ]
+      },
+      "3": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "State_New York"
+        ],
+        "rmse": 8309.06,
+        "r2": 0.946,
+        "adj_r2": 0.919,
+        "mae": 7028.44,
+        "f_stat": 226.9,
+        "intercept": 46100.29,
+        "coef": {
+          "R&D Spend": 0.7859,
+          "Marketing Spend": 0.0333,
+          "State_New York": 864.0019
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 101939.27,
+            "residual": -1343.11,
+            "abs_error": 1343.11,
+            "pct_error": 1.3
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133524.92,
+            "residual": -10734.48,
+            "abs_error": 10734.48,
+            "pct_error": 7.44
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 133815.43,
+            "residual": -12306.52,
+            "abs_error": 12306.52,
+            "pct_error": 8.42
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 73492.77,
+            "residual": -4306.06,
+            "abs_error": 4306.06,
+            "pct_error": 5.53
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 180258.25,
+            "residual": -10792.14,
+            "abs_error": 10792.14,
+            "pct_error": 5.65
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 115382.64,
+            "residual": 10374.33,
+            "abs_error": 10374.33,
+            "pct_error": 9.88
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 69026.25,
+            "residual": -12202.81,
+            "abs_error": 12202.81,
+            "pct_error": 15.02
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 97944.78,
+            "residual": 461.22,
+            "abs_error": 461.22,
+            "pct_error": 0.47
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 114342.46,
+            "residual": 3990.21,
+            "abs_error": 3990.21,
+            "pct_error": 3.62
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169961.42,
+            "residual": 3773.48,
+            "abs_error": 3773.48,
+            "pct_error": 2.27
+          }
+        ]
+      },
+      "4": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "State_New York",
+          "State_Florida"
+        ],
+        "rmse": 8409.92,
+        "r2": 0.9447,
+        "adj_r2": 0.9005,
+        "mae": 7109.16,
+        "f_stat": 165.6,
+        "intercept": 46329.06,
+        "coef": {
+          "R&D Spend": 0.7851,
+          "Marketing Spend": 0.034,
+          "State_New York": 554.6573,
+          "State_Florida": -826.4682
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 101374.28,
+            "residual": -1908.1,
+            "abs_error": 1908.1,
+            "pct_error": 1.85
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133851.24,
+            "residual": -10408.16,
+            "abs_error": 10408.16,
+            "pct_error": 7.21
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 133300.28,
+            "residual": -12821.67,
+            "abs_error": 12821.67,
+            "pct_error": 8.77
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72987.32,
+            "residual": -4811.51,
+            "abs_error": 4811.51,
+            "pct_error": 6.18
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179827.91,
+            "residual": -11222.48,
+            "abs_error": 11222.48,
+            "pct_error": 5.87
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 115491.25,
+            "residual": 10482.94,
+            "abs_error": 10482.94,
+            "pct_error": 9.98
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 69057.75,
+            "residual": -12171.31,
+            "abs_error": 12171.31,
+            "pct_error": 14.98
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 97880.01,
+            "residual": 396.45,
+            "abs_error": 396.45,
+            "pct_error": 0.41
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113898.44,
+            "residual": 3546.19,
+            "abs_error": 3546.19,
+            "pct_error": 3.21
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169510.76,
+            "residual": 3322.82,
+            "abs_error": 3322.82,
+            "pct_error": 2.0
+          }
+        ]
+      },
+      "5": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "State_New York",
+          "State_Florida",
+          "Administration"
+        ],
+        "rmse": 9137.99,
+        "r2": 0.9347,
+        "adj_r2": 0.8531,
+        "mae": 7514.29,
+        "f_stat": 129.7,
+        "intercept": 42554.17,
+        "coef": {
+          "R&D Spend": 0.7735,
+          "Marketing Spend": 0.0366,
+          "State_New York": 699.3691,
+          "State_Florida": -959.2842,
+          "Administration": 0.0329
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 103015.2,
+            "residual": -267.18,
+            "abs_error": 267.18,
+            "pct_error": 0.26
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 132582.28,
+            "residual": -11677.12,
+            "abs_error": 11677.12,
+            "pct_error": 8.09
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 132447.74,
+            "residual": -13674.21,
+            "abs_error": 13674.21,
+            "pct_error": 9.36
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 71976.1,
+            "residual": -5822.73,
+            "abs_error": 5822.73,
+            "pct_error": 7.48
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 178537.48,
+            "residual": -12512.91,
+            "abs_error": 12512.91,
+            "pct_error": 6.55
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 116161.24,
+            "residual": 11152.93,
+            "abs_error": 11152.93,
+            "pct_error": 10.62
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 67851.69,
+            "residual": -13377.37,
+            "abs_error": 13377.37,
+            "pct_error": 16.47
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 98791.73,
+            "residual": 1308.17,
+            "abs_error": 1308.17,
+            "pct_error": 1.34
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113969.44,
+            "residual": 3617.19,
+            "abs_error": 3617.19,
+            "pct_error": 3.28
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 167921.07,
+            "residual": 1733.13,
+            "abs_error": 1733.13,
+            "pct_error": 1.04
+          }
+        ]
+      }
+    },
+    "rfe": {
+      "1": {
+        "features": [
+          "State_New York"
+        ],
+        "rmse": 41366.02,
+        "r2": -0.338,
+        "adj_r2": -0.5052,
+        "mae": 33203.41,
+        "f_stat": 0.9,
+        "intercept": 104912.28,
+        "coef": {
+          "State_New York": 12954.7691
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 104912.28,
+            "residual": 1629.9,
+            "abs_error": 1629.9,
+            "pct_error": 1.58
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 104912.28,
+            "residual": -39347.12,
+            "abs_error": 39347.12,
+            "pct_error": 27.28
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 104912.28,
+            "residual": -41209.67,
+            "abs_error": 41209.67,
+            "pct_error": 28.2
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 104912.28,
+            "residual": 27113.45,
+            "abs_error": 27113.45,
+            "pct_error": 34.85
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 104912.28,
+            "residual": -86138.11,
+            "abs_error": 86138.11,
+            "pct_error": 45.09
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 117867.05,
+            "residual": 12858.74,
+            "abs_error": 12858.74,
+            "pct_error": 12.25
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 117867.05,
+            "residual": 36637.99,
+            "abs_error": 36637.99,
+            "pct_error": 45.1
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 117867.05,
+            "residual": 20383.49,
+            "abs_error": 20383.49,
+            "pct_error": 20.91
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 104912.28,
+            "residual": -5439.97,
+            "abs_error": 5439.97,
+            "pct_error": 4.93
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 104912.28,
+            "residual": -61275.66,
+            "abs_error": 61275.66,
+            "pct_error": 36.87
+          }
+        ]
+      },
+      "2": {
+        "features": [
+          "State_Florida",
+          "State_New York"
+        ],
+        "rmse": 39655.93,
+        "r2": -0.2297,
+        "adj_r2": -0.581,
+        "mae": 32468.34,
+        "f_stat": 0.6,
+        "intercept": 101383.04,
+        "coef": {
+          "State_Florida": 9176.0287,
+          "State_New York": 16484.0109
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 110559.07,
+            "residual": 7276.68,
+            "abs_error": 7276.68,
+            "pct_error": 7.05
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 101383.04,
+            "residual": -42876.36,
+            "abs_error": 42876.36,
+            "pct_error": 29.72
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 110559.07,
+            "residual": -35562.89,
+            "abs_error": 35562.89,
+            "pct_error": 24.34
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 110559.07,
+            "residual": 32760.24,
+            "abs_error": 32760.24,
+            "pct_error": 42.11
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 110559.07,
+            "residual": -80491.33,
+            "abs_error": 80491.33,
+            "pct_error": 42.13
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 117867.05,
+            "residual": 12858.74,
+            "abs_error": 12858.74,
+            "pct_error": 12.25
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 117867.05,
+            "residual": 36637.99,
+            "abs_error": 36637.99,
+            "pct_error": 45.1
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 117867.05,
+            "residual": 20383.49,
+            "abs_error": 20383.49,
+            "pct_error": 20.91
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 110559.07,
+            "residual": 206.82,
+            "abs_error": 206.82,
+            "pct_error": 0.19
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 110559.07,
+            "residual": -55628.88,
+            "abs_error": 55628.88,
+            "pct_error": 33.47
+          }
+        ]
+      },
+      "3": {
+        "features": [
+          "R&D Spend",
+          "State_Florida",
+          "State_New York"
+        ],
+        "rmse": 8219.81,
+        "r2": 0.9472,
+        "adj_r2": 0.9208,
+        "mae": 6789.98,
+        "f_stat": 206.1,
+        "intercept": 48257.52,
+        "coef": {
+          "R&D Spend": 0.8513,
+          "State_Florida": 483.1607,
+          "State_New York": 179.1482
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 104968.88,
+            "residual": 1686.5,
+            "abs_error": 1686.5,
+            "pct_error": 1.63
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133957.34,
+            "residual": -10302.06,
+            "abs_error": 10302.06,
+            "pct_error": 7.14
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 135497.03,
+            "residual": -10624.92,
+            "abs_error": 10624.92,
+            "pct_error": 7.27
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72485.31,
+            "residual": -5313.52,
+            "abs_error": 5313.52,
+            "pct_error": 6.83
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179362.05,
+            "residual": -11688.34,
+            "abs_error": 11688.34,
+            "pct_error": 6.12
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 109820.28,
+            "residual": 4811.97,
+            "abs_error": 4811.97,
+            "pct_error": 4.58
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 65657.67,
+            "residual": -15571.39,
+            "abs_error": 15571.39,
+            "pct_error": 19.17
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 100480.72,
+            "residual": 2997.16,
+            "abs_error": 2997.16,
+            "pct_error": 3.07
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 111730.62,
+            "residual": 1378.37,
+            "abs_error": 1378.37,
+            "pct_error": 1.25
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169713.52,
+            "residual": 3525.58,
+            "abs_error": 3525.58,
+            "pct_error": 2.12
+          }
+        ]
+      },
+      "4": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "State_Florida",
+          "State_New York"
+        ],
+        "rmse": 8409.92,
+        "r2": 0.9447,
+        "adj_r2": 0.9005,
+        "mae": 7109.16,
+        "f_stat": 165.6,
+        "intercept": 46329.06,
+        "coef": {
+          "R&D Spend": 0.7851,
+          "Marketing Spend": 0.034,
+          "State_Florida": -826.4682,
+          "State_New York": 554.6573
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 101374.28,
+            "residual": -1908.1,
+            "abs_error": 1908.1,
+            "pct_error": 1.85
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133851.24,
+            "residual": -10408.16,
+            "abs_error": 10408.16,
+            "pct_error": 7.21
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 133300.28,
+            "residual": -12821.67,
+            "abs_error": 12821.67,
+            "pct_error": 8.77
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72987.32,
+            "residual": -4811.51,
+            "abs_error": 4811.51,
+            "pct_error": 6.18
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179827.91,
+            "residual": -11222.48,
+            "abs_error": 11222.48,
+            "pct_error": 5.87
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 115491.25,
+            "residual": 10482.94,
+            "abs_error": 10482.94,
+            "pct_error": 9.98
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 69057.75,
+            "residual": -12171.31,
+            "abs_error": 12171.31,
+            "pct_error": 14.98
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 97880.01,
+            "residual": 396.45,
+            "abs_error": 396.45,
+            "pct_error": 0.41
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113898.44,
+            "residual": 3546.19,
+            "abs_error": 3546.19,
+            "pct_error": 3.21
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169510.76,
+            "residual": 3322.82,
+            "abs_error": 3322.82,
+            "pct_error": 2.0
+          }
+        ]
+      },
+      "5": {
+        "features": [
+          "R&D Spend",
+          "Administration",
+          "Marketing Spend",
+          "State_Florida",
+          "State_New York"
+        ],
+        "rmse": 9137.99,
+        "r2": 0.9347,
+        "adj_r2": 0.8531,
+        "mae": 7514.29,
+        "f_stat": 129.7,
+        "intercept": 42554.17,
+        "coef": {
+          "R&D Spend": 0.7735,
+          "Administration": 0.0329,
+          "Marketing Spend": 0.0366,
+          "State_Florida": -959.2842,
+          "State_New York": 699.3691
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 103015.2,
+            "residual": -267.18,
+            "abs_error": 267.18,
+            "pct_error": 0.26
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 132582.28,
+            "residual": -11677.12,
+            "abs_error": 11677.12,
+            "pct_error": 8.09
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 132447.74,
+            "residual": -13674.21,
+            "abs_error": 13674.21,
+            "pct_error": 9.36
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 71976.1,
+            "residual": -5822.73,
+            "abs_error": 5822.73,
+            "pct_error": 7.48
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 178537.48,
+            "residual": -12512.91,
+            "abs_error": 12512.91,
+            "pct_error": 6.55
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 116161.24,
+            "residual": 11152.93,
+            "abs_error": 11152.93,
+            "pct_error": 10.62
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 67851.69,
+            "residual": -13377.37,
+            "abs_error": 13377.37,
+            "pct_error": 16.47
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 98791.73,
+            "residual": 1308.17,
+            "abs_error": 1308.17,
+            "pct_error": 1.34
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113969.44,
+            "residual": 3617.19,
+            "abs_error": 3617.19,
+            "pct_error": 3.28
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 167921.07,
+            "residual": 1733.13,
+            "abs_error": 1733.13,
+            "pct_error": 1.04
+          }
+        ]
+      }
+    },
+    "elasticnet": {
+      "1": {
+        "features": [
+          "R&D Spend"
+        ],
+        "rmse": 8274.87,
+        "r2": 0.9465,
+        "adj_r2": 0.9398,
+        "mae": 6772.45,
+        "f_stat": 652.4,
+        "intercept": 48416.3,
+        "coef": {
+          "R&D Spend": 0.8516
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 104667.28,
+            "residual": 1384.9,
+            "abs_error": 1384.9,
+            "pct_error": 1.34
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 134150.83,
+            "residual": -10108.57,
+            "abs_error": 10108.57,
+            "pct_error": 7.01
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 135207.8,
+            "residual": -10914.15,
+            "abs_error": 10914.15,
+            "pct_error": 7.47
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72170.54,
+            "residual": -5628.29,
+            "abs_error": 5628.29,
+            "pct_error": 7.23
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179090.59,
+            "residual": -11959.8,
+            "abs_error": 11959.8,
+            "pct_error": 6.26
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 109824.77,
+            "residual": 4816.46,
+            "abs_error": 4816.46,
+            "pct_error": 4.59
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 65644.28,
+            "residual": -15584.78,
+            "abs_error": 15584.78,
+            "pct_error": 19.19
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 100481.43,
+            "residual": 2997.87,
+            "abs_error": 2997.87,
+            "pct_error": 3.08
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 111431.75,
+            "residual": 1079.5,
+            "abs_error": 1079.5,
+            "pct_error": 0.98
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169438.15,
+            "residual": 3250.21,
+            "abs_error": 3250.21,
+            "pct_error": 1.96
+          }
+        ]
+      },
+      "2": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend"
+        ],
+        "rmse": 8198.8,
+        "r2": 0.9474,
+        "adj_r2": 0.9324,
+        "mae": 6886.59,
+        "f_stat": 349.0,
+        "intercept": 46346.34,
+        "coef": {
+          "R&D Spend": 0.7886,
+          "Marketing Spend": 0.0326
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 102284.65,
+            "residual": -997.73,
+            "abs_error": 997.73,
+            "pct_error": 0.97
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133873.92,
+            "residual": -10385.48,
+            "abs_error": 10385.48,
+            "pct_error": 7.2
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 134182.15,
+            "residual": -11939.8,
+            "abs_error": 11939.8,
+            "pct_error": 8.17
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 73701.11,
+            "residual": -4097.72,
+            "abs_error": 4097.72,
+            "pct_error": 5.27
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 180642.25,
+            "residual": -10408.14,
+            "abs_error": 10408.14,
+            "pct_error": 5.45
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 114717.25,
+            "residual": 9708.94,
+            "abs_error": 9708.94,
+            "pct_error": 9.25
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 68335.08,
+            "residual": -12893.98,
+            "abs_error": 12893.98,
+            "pct_error": 15.87
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 97433.46,
+            "residual": -50.1,
+            "abs_error": 50.1,
+            "pct_error": 0.05
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 114580.92,
+            "residual": 4228.67,
+            "abs_error": 4228.67,
+            "pct_error": 3.83
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 170343.32,
+            "residual": 4155.38,
+            "abs_error": 4155.38,
+            "pct_error": 2.5
+          }
+        ]
+      },
+      "3": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "State_New York"
+        ],
+        "rmse": 8309.06,
+        "r2": 0.946,
+        "adj_r2": 0.919,
+        "mae": 7028.44,
+        "f_stat": 226.9,
+        "intercept": 46100.29,
+        "coef": {
+          "R&D Spend": 0.7859,
+          "Marketing Spend": 0.0333,
+          "State_New York": 864.0019
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 101939.27,
+            "residual": -1343.11,
+            "abs_error": 1343.11,
+            "pct_error": 1.3
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133524.92,
+            "residual": -10734.48,
+            "abs_error": 10734.48,
+            "pct_error": 7.44
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 133815.43,
+            "residual": -12306.52,
+            "abs_error": 12306.52,
+            "pct_error": 8.42
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 73492.77,
+            "residual": -4306.06,
+            "abs_error": 4306.06,
+            "pct_error": 5.53
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 180258.25,
+            "residual": -10792.14,
+            "abs_error": 10792.14,
+            "pct_error": 5.65
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 115382.64,
+            "residual": 10374.33,
+            "abs_error": 10374.33,
+            "pct_error": 9.88
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 69026.25,
+            "residual": -12202.81,
+            "abs_error": 12202.81,
+            "pct_error": 15.02
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 97944.78,
+            "residual": 461.22,
+            "abs_error": 461.22,
+            "pct_error": 0.47
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 114342.46,
+            "residual": 3990.21,
+            "abs_error": 3990.21,
+            "pct_error": 3.62
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169961.42,
+            "residual": 3773.48,
+            "abs_error": 3773.48,
+            "pct_error": 2.27
+          }
+        ]
+      },
+      "4": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "State_New York",
+          "State_Florida"
+        ],
+        "rmse": 8409.92,
+        "r2": 0.9447,
+        "adj_r2": 0.9005,
+        "mae": 7109.16,
+        "f_stat": 165.6,
+        "intercept": 46329.06,
+        "coef": {
+          "R&D Spend": 0.7851,
+          "Marketing Spend": 0.034,
+          "State_New York": 554.6573,
+          "State_Florida": -826.4682
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 101374.28,
+            "residual": -1908.1,
+            "abs_error": 1908.1,
+            "pct_error": 1.85
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133851.24,
+            "residual": -10408.16,
+            "abs_error": 10408.16,
+            "pct_error": 7.21
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 133300.28,
+            "residual": -12821.67,
+            "abs_error": 12821.67,
+            "pct_error": 8.77
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72987.32,
+            "residual": -4811.51,
+            "abs_error": 4811.51,
+            "pct_error": 6.18
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179827.91,
+            "residual": -11222.48,
+            "abs_error": 11222.48,
+            "pct_error": 5.87
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 115491.25,
+            "residual": 10482.94,
+            "abs_error": 10482.94,
+            "pct_error": 9.98
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 69057.75,
+            "residual": -12171.31,
+            "abs_error": 12171.31,
+            "pct_error": 14.98
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 97880.01,
+            "residual": 396.45,
+            "abs_error": 396.45,
+            "pct_error": 0.41
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113898.44,
+            "residual": 3546.19,
+            "abs_error": 3546.19,
+            "pct_error": 3.21
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169510.76,
+            "residual": 3322.82,
+            "abs_error": 3322.82,
+            "pct_error": 2.0
+          }
+        ]
+      },
+      "5": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend",
+          "State_New York",
+          "State_Florida",
+          "Administration"
+        ],
+        "rmse": 9137.99,
+        "r2": 0.9347,
+        "adj_r2": 0.8531,
+        "mae": 7514.29,
+        "f_stat": 129.7,
+        "intercept": 42554.17,
+        "coef": {
+          "R&D Spend": 0.7735,
+          "Marketing Spend": 0.0366,
+          "State_New York": 699.3691,
+          "State_Florida": -959.2842,
+          "Administration": 0.0329
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 103015.2,
+            "residual": -267.18,
+            "abs_error": 267.18,
+            "pct_error": 0.26
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 132582.28,
+            "residual": -11677.12,
+            "abs_error": 11677.12,
+            "pct_error": 8.09
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 132447.74,
+            "residual": -13674.21,
+            "abs_error": 13674.21,
+            "pct_error": 9.36
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 71976.1,
+            "residual": -5822.73,
+            "abs_error": 5822.73,
+            "pct_error": 7.48
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 178537.48,
+            "residual": -12512.91,
+            "abs_error": 12512.91,
+            "pct_error": 6.55
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 116161.24,
+            "residual": 11152.93,
+            "abs_error": 11152.93,
+            "pct_error": 10.62
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 67851.69,
+            "residual": -13377.37,
+            "abs_error": 13377.37,
+            "pct_error": 16.47
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 98791.73,
+            "residual": 1308.17,
+            "abs_error": 1308.17,
+            "pct_error": 1.34
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113969.44,
+            "residual": 3617.19,
+            "abs_error": 3617.19,
+            "pct_error": 3.28
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 167921.07,
+            "residual": 1733.13,
+            "abs_error": 1733.13,
+            "pct_error": 1.04
+          }
+        ]
+      }
+    },
+    "exhaustive": {
+      "1": {
+        "features": [
+          "R&D Spend"
+        ],
+        "rmse": 8274.87,
+        "r2": 0.9465,
+        "adj_r2": 0.9398,
+        "mae": 6772.45,
+        "f_stat": 652.4,
+        "intercept": 48416.3,
+        "coef": {
+          "R&D Spend": 0.8516
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 104667.28,
+            "residual": 1384.9,
+            "abs_error": 1384.9,
+            "pct_error": 1.34
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 134150.83,
+            "residual": -10108.57,
+            "abs_error": 10108.57,
+            "pct_error": 7.01
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 135207.8,
+            "residual": -10914.15,
+            "abs_error": 10914.15,
+            "pct_error": 7.47
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72170.54,
+            "residual": -5628.29,
+            "abs_error": 5628.29,
+            "pct_error": 7.23
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179090.59,
+            "residual": -11959.8,
+            "abs_error": 11959.8,
+            "pct_error": 6.26
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 109824.77,
+            "residual": 4816.46,
+            "abs_error": 4816.46,
+            "pct_error": 4.59
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 65644.28,
+            "residual": -15584.78,
+            "abs_error": 15584.78,
+            "pct_error": 19.19
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 100481.43,
+            "residual": 2997.87,
+            "abs_error": 2997.87,
+            "pct_error": 3.08
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 111431.75,
+            "residual": 1079.5,
+            "abs_error": 1079.5,
+            "pct_error": 0.98
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169438.15,
+            "residual": 3250.21,
+            "abs_error": 3250.21,
+            "pct_error": 1.96
+          }
+        ]
+      },
+      "2": {
+        "features": [
+          "R&D Spend",
+          "Marketing Spend"
+        ],
+        "rmse": 8198.8,
+        "r2": 0.9474,
+        "adj_r2": 0.9324,
+        "mae": 6886.59,
+        "f_stat": 349.0,
+        "intercept": 46346.34,
+        "coef": {
+          "R&D Spend": 0.7886,
+          "Marketing Spend": 0.0326
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 102284.65,
+            "residual": -997.73,
+            "abs_error": 997.73,
+            "pct_error": 0.97
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 133873.92,
+            "residual": -10385.48,
+            "abs_error": 10385.48,
+            "pct_error": 7.2
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 134182.15,
+            "residual": -11939.8,
+            "abs_error": 11939.8,
+            "pct_error": 8.17
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 73701.11,
+            "residual": -4097.72,
+            "abs_error": 4097.72,
+            "pct_error": 5.27
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 180642.25,
+            "residual": -10408.14,
+            "abs_error": 10408.14,
+            "pct_error": 5.45
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 114717.25,
+            "residual": 9708.94,
+            "abs_error": 9708.94,
+            "pct_error": 9.25
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 68335.08,
+            "residual": -12893.98,
+            "abs_error": 12893.98,
+            "pct_error": 15.87
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 97433.46,
+            "residual": -50.1,
+            "abs_error": 50.1,
+            "pct_error": 0.05
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 114580.92,
+            "residual": 4228.67,
+            "abs_error": 4228.67,
+            "pct_error": 3.83
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 170343.32,
+            "residual": 4155.38,
+            "abs_error": 4155.38,
+            "pct_error": 2.5
+          }
+        ]
+      },
+      "3": {
+        "features": [
+          "R&D Spend",
+          "Administration",
+          "Marketing Spend"
+        ],
+        "rmse": 8803.78,
+        "r2": 0.9394,
+        "adj_r2": 0.9091,
+        "mae": 7320.44,
+        "f_stat": 227.8,
+        "intercept": 42989.01,
+        "coef": {
+          "R&D Spend": 0.7788,
+          "Administration": 0.0294,
+          "Marketing Spend": 0.0347
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 103901.9,
+            "residual": 619.52,
+            "abs_error": 619.52,
+            "pct_error": 0.6
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 132763.06,
+            "residual": -11496.34,
+            "abs_error": 11496.34,
+            "pct_error": 7.97
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 133567.9,
+            "residual": -12554.05,
+            "abs_error": 12554.05,
+            "pct_error": 8.59
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 72911.79,
+            "residual": -4887.04,
+            "abs_error": 4887.04,
+            "pct_error": 6.28
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 179627.93,
+            "residual": -11422.46,
+            "abs_error": 11422.46,
+            "pct_error": 5.98
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 115166.65,
+            "residual": 10158.34,
+            "abs_error": 10158.34,
+            "pct_error": 9.67
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 67113.58,
+            "residual": -14115.48,
+            "abs_error": 14115.48,
+            "pct_error": 17.38
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 98154.81,
+            "residual": 671.25,
+            "abs_error": 671.25,
+            "pct_error": 0.69
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 114756.12,
+            "residual": 4403.87,
+            "abs_error": 4403.87,
+            "pct_error": 3.99
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 169064.01,
+            "residual": 2876.07,
+            "abs_error": 2876.07,
+            "pct_error": 1.73
+          }
+        ]
+      },
+      "4": {
+        "features": [
+          "R&D Spend",
+          "Administration",
+          "Marketing Spend",
+          "State_Florida"
+        ],
+        "rmse": 9068.54,
+        "r2": 0.9357,
+        "adj_r2": 0.8843,
+        "mae": 7431.47,
+        "f_stat": 166.7,
+        "intercept": 42922.43,
+        "coef": {
+          "R&D Spend": 0.7754,
+          "Administration": 0.0319,
+          "Marketing Spend": 0.0363,
+          "State_Florida": -1272.1608
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 102978.26,
+            "residual": -304.12,
+            "abs_error": 304.12,
+            "pct_error": 0.29
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 132979.34,
+            "residual": -11280.06,
+            "abs_error": 11280.06,
+            "pct_error": 7.82
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 132521.05,
+            "residual": -13600.9,
+            "abs_error": 13600.9,
+            "pct_error": 9.31
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 71952.39,
+            "residual": -5846.44,
+            "abs_error": 5846.44,
+            "pct_error": 7.51
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 178668.35,
+            "residual": -12382.04,
+            "abs_error": 12382.04,
+            "pct_error": 6.48
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 115738.44,
+            "residual": 10730.13,
+            "abs_error": 10730.13,
+            "pct_error": 10.22
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 67439.98,
+            "residual": -13789.08,
+            "abs_error": 13789.08,
+            "pct_error": 16.98
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 98397.74,
+            "residual": 914.18,
+            "abs_error": 914.18,
+            "pct_error": 0.94
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113956.0,
+            "residual": 3603.75,
+            "abs_error": 3603.75,
+            "pct_error": 3.27
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 168051.97,
+            "residual": 1864.03,
+            "abs_error": 1864.03,
+            "pct_error": 1.12
+          }
+        ]
+      },
+      "5": {
+        "features": [
+          "R&D Spend",
+          "Administration",
+          "Marketing Spend",
+          "State_Florida",
+          "State_New York"
+        ],
+        "rmse": 9137.99,
+        "r2": 0.9347,
+        "adj_r2": 0.8531,
+        "mae": 7514.29,
+        "f_stat": 129.7,
+        "intercept": 42554.17,
+        "coef": {
+          "R&D Spend": 0.7735,
+          "Administration": 0.0329,
+          "Marketing Spend": 0.0366,
+          "State_Florida": -959.2842,
+          "State_New York": 699.3691
+        },
+        "test_predictions": [
+          {
+            "idx": 28,
+            "rd": 66051.52,
+            "adm": 182645.56,
+            "mkt": 118148.2,
+            "state": "Florida",
+            "actual": 103282.38,
+            "predicted": 103015.2,
+            "residual": -267.18,
+            "abs_error": 267.18,
+            "pct_error": 0.26
+          },
+          {
+            "idx": 11,
+            "rd": 100671.96,
+            "adm": 91790.61,
+            "mkt": 249744.55,
+            "state": "California",
+            "actual": 144259.4,
+            "predicted": 132582.28,
+            "residual": -11677.12,
+            "abs_error": 11677.12,
+            "pct_error": 8.09
+          },
+          {
+            "idx": 10,
+            "rd": 101913.08,
+            "adm": 110594.11,
+            "mkt": 229160.95,
+            "state": "Florida",
+            "actual": 146121.95,
+            "predicted": 132447.74,
+            "residual": -13674.21,
+            "abs_error": 13674.21,
+            "pct_error": 9.36
+          },
+          {
+            "idx": 41,
+            "rd": 27892.92,
+            "adm": 84710.77,
+            "mkt": 164470.71,
+            "state": "Florida",
+            "actual": 77798.83,
+            "predicted": 71976.1,
+            "residual": -5822.73,
+            "abs_error": 5822.73,
+            "pct_error": 7.48
+          },
+          {
+            "idx": 2,
+            "rd": 153441.51,
+            "adm": 101145.55,
+            "mkt": 407934.54,
+            "state": "Florida",
+            "actual": 191050.39,
+            "predicted": 178537.48,
+            "residual": -12512.91,
+            "abs_error": 12512.91,
+            "pct_error": 6.55
+          },
+          {
+            "idx": 27,
+            "rd": 72107.6,
+            "adm": 127864.55,
+            "mkt": 353183.81,
+            "state": "New York",
+            "actual": 105008.31,
+            "predicted": 116161.24,
+            "residual": 11152.93,
+            "abs_error": 11152.93,
+            "pct_error": 10.62
+          },
+          {
+            "idx": 38,
+            "rd": 20229.59,
+            "adm": 65947.93,
+            "mkt": 185265.1,
+            "state": "New York",
+            "actual": 81229.06,
+            "predicted": 67851.69,
+            "residual": -13377.37,
+            "abs_error": 13377.37,
+            "pct_error": 16.47
+          },
+          {
+            "idx": 31,
+            "rd": 61136.38,
+            "adm": 152701.92,
+            "mkt": 88218.23,
+            "state": "New York",
+            "actual": 97483.56,
+            "predicted": 98791.73,
+            "residual": 1308.17,
+            "abs_error": 1308.17,
+            "pct_error": 1.34
+          },
+          {
+            "idx": 22,
+            "rd": 73994.56,
+            "adm": 122782.75,
+            "mkt": 303319.26,
+            "state": "Florida",
+            "actual": 110352.25,
+            "predicted": 113969.44,
+            "residual": 3617.19,
+            "abs_error": 3617.19,
+            "pct_error": 3.28
+          },
+          {
+            "idx": 4,
+            "rd": 142107.34,
+            "adm": 91391.77,
+            "mkt": 366168.42,
+            "state": "Florida",
+            "actual": 166187.94,
+            "predicted": 167921.07,
+            "residual": 1733.13,
+            "abs_error": 1733.13,
+            "pct_error": 1.04
+          }
+        ]
+      }
+    }
+  },
+  "dataset": [
+    {
+      "R&D Spend": 165349.2,
+      "Administration": 136897.8,
+      "Marketing Spend": 471784.1,
+      "State": "New York",
+      "Profit": 192261.83
+    },
+    {
+      "R&D Spend": 162597.7,
+      "Administration": 151377.59,
+      "Marketing Spend": 443898.53,
+      "State": "California",
+      "Profit": 191792.06
+    },
+    {
+      "R&D Spend": 153441.51,
+      "Administration": 101145.55,
+      "Marketing Spend": 407934.54,
+      "State": "Florida",
+      "Profit": 191050.39
+    },
+    {
+      "R&D Spend": 144372.41,
+      "Administration": 118671.85,
+      "Marketing Spend": 383199.62,
+      "State": "New York",
+      "Profit": 182901.99
+    },
+    {
+      "R&D Spend": 142107.34,
+      "Administration": 91391.77,
+      "Marketing Spend": 366168.42,
+      "State": "Florida",
+      "Profit": 166187.94
+    },
+    {
+      "R&D Spend": 131876.9,
+      "Administration": 99814.71,
+      "Marketing Spend": 362861.36,
+      "State": "New York",
+      "Profit": 156991.12
+    },
+    {
+      "R&D Spend": 134615.46,
+      "Administration": 147198.87,
+      "Marketing Spend": 127716.82,
+      "State": "California",
+      "Profit": 156122.51
+    },
+    {
+      "R&D Spend": 130298.13,
+      "Administration": 145530.06,
+      "Marketing Spend": 323876.68,
+      "State": "Florida",
+      "Profit": 155752.6
+    },
+    {
+      "R&D Spend": 120542.52,
+      "Administration": 148718.95,
+      "Marketing Spend": 311613.29,
+      "State": "New York",
+      "Profit": 152211.77
+    },
+    {
+      "R&D Spend": 123334.88,
+      "Administration": 108679.17,
+      "Marketing Spend": 304981.62,
+      "State": "California",
+      "Profit": 149759.96
+    },
+    {
+      "R&D Spend": 101913.08,
+      "Administration": 110594.11,
+      "Marketing Spend": 229160.95,
+      "State": "Florida",
+      "Profit": 146121.95
+    },
+    {
+      "R&D Spend": 100671.96,
+      "Administration": 91790.61,
+      "Marketing Spend": 249744.55,
+      "State": "California",
+      "Profit": 144259.4
+    },
+    {
+      "R&D Spend": 93863.75,
+      "Administration": 127320.38,
+      "Marketing Spend": 249839.44,
+      "State": "Florida",
+      "Profit": 141585.52
+    },
+    {
+      "R&D Spend": 91992.39,
+      "Administration": 135495.07,
+      "Marketing Spend": 252664.93,
+      "State": "California",
+      "Profit": 134307.35
+    },
+    {
+      "R&D Spend": 119943.24,
+      "Administration": 156547.42,
+      "Marketing Spend": 256512.92,
+      "State": "Florida",
+      "Profit": 132602.65
+    },
+    {
+      "R&D Spend": 114523.61,
+      "Administration": 122616.84,
+      "Marketing Spend": 261776.23,
+      "State": "New York",
+      "Profit": 129917.04
+    },
+    {
+      "R&D Spend": 78013.11,
+      "Administration": 121597.55,
+      "Marketing Spend": 264346.06,
+      "State": "California",
+      "Profit": 126992.93
+    },
+    {
+      "R&D Spend": 94657.16,
+      "Administration": 145077.58,
+      "Marketing Spend": 282574.31,
+      "State": "New York",
+      "Profit": 125370.37
+    },
+    {
+      "R&D Spend": 91749.16,
+      "Administration": 114175.79,
+      "Marketing Spend": 294919.57,
+      "State": "Florida",
+      "Profit": 124266.9
+    },
+    {
+      "R&D Spend": 86419.7,
+      "Administration": 153514.11,
+      "Marketing Spend": 0.0,
+      "State": "New York",
+      "Profit": 122776.86
+    },
+    {
+      "R&D Spend": 76253.86,
+      "Administration": 113867.3,
+      "Marketing Spend": 298664.47,
+      "State": "California",
+      "Profit": 118474.03
+    },
+    {
+      "R&D Spend": 78389.47,
+      "Administration": 153773.43,
+      "Marketing Spend": 299737.29,
+      "State": "New York",
+      "Profit": 111313.02
+    },
+    {
+      "R&D Spend": 73994.56,
+      "Administration": 122782.75,
+      "Marketing Spend": 303319.26,
+      "State": "Florida",
+      "Profit": 110352.25
+    },
+    {
+      "R&D Spend": 67532.53,
+      "Administration": 105751.03,
+      "Marketing Spend": 304768.73,
+      "State": "Florida",
+      "Profit": 108733.99
+    },
+    {
+      "R&D Spend": 77044.01,
+      "Administration": 99281.34,
+      "Marketing Spend": 140574.81,
+      "State": "New York",
+      "Profit": 108552.04
+    },
+    {
+      "R&D Spend": 64664.71,
+      "Administration": 139553.16,
+      "Marketing Spend": 137962.62,
+      "State": "California",
+      "Profit": 107404.34
+    },
+    {
+      "R&D Spend": 75328.87,
+      "Administration": 144135.98,
+      "Marketing Spend": 134050.07,
+      "State": "Florida",
+      "Profit": 105733.54
+    },
+    {
+      "R&D Spend": 72107.6,
+      "Administration": 127864.55,
+      "Marketing Spend": 353183.81,
+      "State": "New York",
+      "Profit": 105008.31
+    },
+    {
+      "R&D Spend": 66051.52,
+      "Administration": 182645.56,
+      "Marketing Spend": 118148.2,
+      "State": "Florida",
+      "Profit": 103282.38
+    },
+    {
+      "R&D Spend": 65605.48,
+      "Administration": 153032.06,
+      "Marketing Spend": 107138.38,
+      "State": "New York",
+      "Profit": 101004.64
+    },
+    {
+      "R&D Spend": 61994.48,
+      "Administration": 115641.28,
+      "Marketing Spend": 91131.24,
+      "State": "Florida",
+      "Profit": 99937.59
+    },
+    {
+      "R&D Spend": 61136.38,
+      "Administration": 152701.92,
+      "Marketing Spend": 88218.23,
+      "State": "New York",
+      "Profit": 97483.56
+    },
+    {
+      "R&D Spend": 63408.86,
+      "Administration": 129219.61,
+      "Marketing Spend": 46085.25,
+      "State": "California",
+      "Profit": 97427.84
+    },
+    {
+      "R&D Spend": 55493.95,
+      "Administration": 103057.49,
+      "Marketing Spend": 214634.81,
+      "State": "Florida",
+      "Profit": 96778.92
+    },
+    {
+      "R&D Spend": 46426.07,
+      "Administration": 157693.92,
+      "Marketing Spend": 210797.67,
+      "State": "California",
+      "Profit": 96712.8
+    },
+    {
+      "R&D Spend": 46014.02,
+      "Administration": 85047.44,
+      "Marketing Spend": 205517.64,
+      "State": "New York",
+      "Profit": 96479.51
+    },
+    {
+      "R&D Spend": 28663.76,
+      "Administration": 127056.21,
+      "Marketing Spend": 201126.82,
+      "State": "Florida",
+      "Profit": 90708.19
+    },
+    {
+      "R&D Spend": 44069.95,
+      "Administration": 51283.14,
+      "Marketing Spend": 197029.42,
+      "State": "California",
+      "Profit": 89949.14
+    },
+    {
+      "R&D Spend": 20229.59,
+      "Administration": 65947.93,
+      "Marketing Spend": 185265.1,
+      "State": "New York",
+      "Profit": 81229.06
+    },
+    {
+      "R&D Spend": 38558.51,
+      "Administration": 82982.09,
+      "Marketing Spend": 174999.3,
+      "State": "California",
+      "Profit": 81005.76
+    },
+    {
+      "R&D Spend": 28754.33,
+      "Administration": 118546.05,
+      "Marketing Spend": 172795.67,
+      "State": "California",
+      "Profit": 78239.91
+    },
+    {
+      "R&D Spend": 27892.92,
+      "Administration": 84710.77,
+      "Marketing Spend": 164470.71,
+      "State": "Florida",
+      "Profit": 77798.83
+    },
+    {
+      "R&D Spend": 23640.93,
+      "Administration": 96189.63,
+      "Marketing Spend": 148001.11,
+      "State": "California",
+      "Profit": 71498.49
+    },
+    {
+      "R&D Spend": 15505.73,
+      "Administration": 127382.3,
+      "Marketing Spend": 35534.17,
+      "State": "New York",
+      "Profit": 69758.98
+    },
+    {
+      "R&D Spend": 22177.74,
+      "Administration": 154806.14,
+      "Marketing Spend": 28334.72,
+      "State": "California",
+      "Profit": 65200.33
+    },
+    {
+      "R&D Spend": 1000.23,
+      "Administration": 124153.04,
+      "Marketing Spend": 1903.93,
+      "State": "New York",
+      "Profit": 64926.08
+    },
+    {
+      "R&D Spend": 1315.46,
+      "Administration": 115816.21,
+      "Marketing Spend": 297114.46,
+      "State": "Florida",
+      "Profit": 49490.75
+    },
+    {
+      "R&D Spend": 0.0,
+      "Administration": 135426.92,
+      "Marketing Spend": 0.0,
+      "State": "California",
+      "Profit": 42559.73
+    },
+    {
+      "R&D Spend": 542.05,
+      "Administration": 51743.15,
+      "Marketing Spend": 0.0,
+      "State": "New York",
+      "Profit": 35673.41
+    },
+    {
+      "R&D Spend": 0.0,
+      "Administration": 116983.8,
+      "Marketing Spend": 45173.06,
+      "State": "California",
+      "Profit": 14681.4
+    }
+  ],
+  "features": [
+    "R&D Spend",
+    "Administration",
+    "Marketing Spend",
+    "State_Florida",
+    "State_New York"
+  ],
+  "test_indices": [
+    28,
+    11,
+    10,
+    41,
+    2,
+    27,
+    38,
+    31,
+    22,
+    4
+  ]
+}
