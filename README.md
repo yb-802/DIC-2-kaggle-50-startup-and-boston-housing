@@ -1,19 +1,22 @@
 # 50 Startups Multiple Linear Regression Explorer 📈
-### CRISP-DM Feature Selection & Parsimony Analysis Platform
+### CRISP-DM Feature Selection & Parsimony Analysis Platform (Midnight Deep Blue Edition)
 
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.3%2B-orange.svg)](https://scikit-learn.org/)
 [![CRISP-DM Compliant](https://img.shields.io/badge/Workflow-CRISP--DM-purple.svg)]()
+[![Theme: Midnight Deep Blue](https://img.shields.io/badge/UI_Theme-Midnight_Deep_Blue-6366f1.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Interactive_Demo-brightgreen.svg)]()
+[![GitHub Pages Demo](https://img.shields.io/badge/GitHub_Pages-Interactive_Demo-brightgreen.svg)](https://huanchen1107.github.io/AIoT-DIC2-MultipleLR/)
 
 > 一個以 **CRISP-DM** 規範為基礎的多元線性迴歸（Multiple Linear Regression, MLR）特徵選取與模型簡約性（Parsimony Analysis）互動視覺化平台。全面對比 **5 種機器學習特徵選取演算法**（Lasso, Forward SFS, RFE, ElasticNet, Exhaustive Search），實證奧坎剃刀原則（Occam's Razor）——鎖定 **2 個特徵的最佳甜蜜點（Sweet Spot）**，並揭示 5 個全特徵的**過擬合懸崖（Overfitting Cliff）**。
+>
+> 🌌 **全新升級：深藍星空科技風 (Midnight Deep Blue)**——結合曜石海軍星空微光漸層、晶透毛玻璃卡片（Glassmorphism）與全域最優解翡翠綠霓虹高光，呈現專業高階研發儀表板體驗。
 
 ---
 
 ## 🌟 核心成果與視覺化儀表板 (Key Findings & Dashboard)
 
-![Dashboard Preview](https://raw.githubusercontent.com/placeholder/preview.png)
+- 🔗 **線上互動體驗網址**：[https://huanchen1107.github.io/AIoT-DIC2-MultipleLR/](https://huanchen1107.github.io/AIoT-DIC2-MultipleLR/)
 
 ### 📌 關鍵數據摘要 (Benchmark Highlights)
 - **全域最優模型 (Global Sweet Spot)**：$k = 2$（`R&D Spend` + `Marketing Spend`）
@@ -24,6 +27,20 @@
   - **F-Statistic**：**349.0** ($P < 0.0001$，統計顯著度極高)
 - **過擬合警訊 (Overfitting Warning)**：$k = 5$（Full Model）
   - 加入 `Administration` 與 `State` 後，測試集 RMSE 攀升至 **$9,137.99**（誤差增加 +$939.19），Adjusted $R^2$ 驟降至 **0.8531**。
+
+---
+
+## 🎨 深藍星空科技風 (Midnight Deep Blue UI Design)
+
+本專案儀表板經過精心設計，提供現代高階資料科學視覺化體驗：
+1. **曜石海軍星空漸層 (Celestial Mesh Gradient)**：底色採用 `#070b14` ~ `#0b1224` 深曜黑曜石星空，疊加多層微弱星雲光暈。
+2. **毛玻璃晶透層次 (Cosmic Glassmorphism)**：卡片具備 `rgba(13, 22, 42, 0.76)` 半透明深藍質地與 `backdrop-filter: blur(16px)`，搭配細緻霓虹微光邊框（`rgba(99, 102, 241, 0.2)`）。
+3. **高對比狀態霓虹高光 (Neon State Accents)**：
+   - **最佳甜蜜點 ($k=2$)**：高顯色度**翡翠綠光澤**（`#34d399` / `#10b981`），在按鈕、評比表格高亮列與核心指標卡片中突出顯示。
+   - **過擬合警示 ($k=5$)**：呈現**琥珀星火光澤**（`#fbbf24`）。
+   - **演算法按鈕**：選取時呈現**靛藍星輝**（`#818cf8`）與動態位移懸浮回饋。
+4. **Chart.js 深度深色適配**：圖表格線細膩通透（`rgba(255, 255, 255, 0.07)`），文字刻度與 Tooltip 均採用深色半透毛玻璃浮層。
+5. **現代高階字體**：標題採用 Google Fonts **Outfit**、內文為 **Inter**、數值與方程式為 **JetBrains Mono**。
 
 ---
 
@@ -70,6 +87,8 @@ $$\widehat{\text{Profit}} = 46,346.34 + 0.7886 \times (\text{R\&D Spend}) + 0.03
    - 散佈圖比對實際值 vs. 預測值與 $y = \hat{y}$ 理想對角線，點擊檢視個別新創公司之預測殘差與誤差百分比。
 6. **完整 50 筆原始資料集即時檢索 (Data Explorer)**：
    - 支援關鍵字過濾搜尋與訓練集/測試集標籤標記。
+7. **CRISP-DM 完整方法學互動彈窗 (Modal)**：
+   - 深入解說從商業理解、資料前處理至模型部屬的 6 大生命週期階段。
 
 ---
 
@@ -109,7 +128,12 @@ python forward_selection.py
 - `results_summary.json`：全域最佳模型方程式與評估指標。
 - `model_data.json`：供前端視覺化儀表板使用的完整預先計算資料包。
 
-### 3. 開啟互動儀表板 (Launch Interactive Dashboard)
+### 3. 生成或重新編譯前端儀表板 (Generate HTML Dashboard)
+```bash
+python generate_html.py
+```
+
+### 4. 開啟互動儀表板 (Launch Interactive Dashboard)
 - **方法一**：直接雙擊開啟 `index.html` 或 `forward_selection.html`。
 - **方法二**：啟動輕量本地 Web 伺服器：
   ```bash
@@ -127,7 +151,7 @@ DIC2/
 ├── forward_selection.html     # 50 Startups MLR 互動分析儀表板
 ├── forward_selection.py       # CRISP-DM 端到端特徵選取與迴歸推論腳本
 ├── 50_Startups.csv            # 50 筆新創公司原始資料集快取
-├── generate_html.py           # 儀表板 HTML 與 Chart.js 構建腳本
+├── generate_html.py           # 儀表板 HTML 與 Chart.js 構建腳本 (深藍星空主題)
 ├── model_data.json            # 5 種演算法與評估指標 JSON 資料包
 ├── test_predictions.csv       # 測試集預測殘差匯出檔
 ├── results_summary.json       # 最佳模型摘要 JSON 檔
