@@ -6,7 +6,7 @@
 [![CRISP-DM Compliant](https://img.shields.io/badge/Workflow-CRISP--DM-purple.svg)]()
 [![Theme: Midnight Deep Blue](https://img.shields.io/badge/UI_Theme-Midnight_Deep_Blue-6366f1.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub Pages Demo](https://img.shields.io/badge/GitHub_Pages-Interactive_Demo-brightgreen.svg)](https://huanchen1107.github.io/AIoT-DIC2-MultipleLR/)
+[![GitHub Pages Demo](https://img.shields.io/badge/GitHub_Pages-Interactive_Demo-brightgreen.svg)](https://yb-802.github.io/DIC-2-kaggle-50-startup-and-boston-housing/)
 
 > 一個以 **CRISP-DM** 規範為基礎的多元線性迴歸（Multiple Linear Regression, MLR）特徵選取與模型簡約性（Parsimony Analysis）互動視覺化平台。全面對比 **5 種機器學習特徵選取演算法**（Lasso, Forward SFS, RFE, ElasticNet, Exhaustive Search），實證奧坎剃刀原則（Occam's Razor）——鎖定 **2 個特徵的最佳甜蜜點（Sweet Spot）**，並揭示 5 個全特徵的**過擬合懸崖（Overfitting Cliff）**。
 >
@@ -16,7 +16,8 @@
 
 ## 🌟 核心成果與視覺化儀表板 (Key Findings & Dashboard)
 
-- 🔗 **線上互動體驗網址**：[https://huanchen1107.github.io/AIoT-DIC2-MultipleLR/](https://huanchen1107.github.io/AIoT-DIC2-MultipleLR/)
+- 🔗 **線上互動體驗網址**：[https://yb-802.github.io/DIC-2-kaggle-50-startup-and-boston-housing/](https://yb-802.github.io/DIC-2-kaggle-50-startup-and-boston-housing/)
+- 🔗 **參考原型 (Reference)**：[https://huanchen1107.github.io/AIoT-DIC2-MultipleLR/](https://huanchen1107.github.io/AIoT-DIC2-MultipleLR/)
 
 ### 📌 關鍵數據摘要 (Benchmark Highlights)
 - **全域最優模型 (Global Sweet Spot)**：$k = 2$（`R&D Spend` + `Marketing Spend`）
